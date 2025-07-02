@@ -28,6 +28,7 @@ Text Cleaning: Special characters were removed, and text was converted to lowerc
 Tokenization: The cleaned text was tokenized into individual words.
 Stopword Removal: Common English stopwords were removed from the tokenized text.
 Lemmatization: Words were lemmatized to reduce them to their root forms, enhancing the model's ability to understand text meaning.
+
 Feature Extraction:
 
 TF-IDF Vectorization: Text data was transformed into numerical features using Term Frequency-Inverse Document Frequency (TF-IDF) to capture the importance of words.
@@ -46,5 +47,7 @@ Results:
 
 The Logistic Regression model achieved a high accuracy score, indicating that it can reliably distinguish between spam and ham emails.
 The classification report showed balanced performance across precision, recall, and F1-score, confirming the model's robustness.
+
 Conclusion:
+
 The project successfully developed a spam classification model that uses a combination of text preprocessing, feature extraction, data balancing, and machine learning. This model can be utilized in email systems to automatically filter out unwanted spam messages, enhancing user experience and security.
